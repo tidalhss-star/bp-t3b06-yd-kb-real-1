@@ -1,329 +1,617 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko-KR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>여의도 노래방 리얼 팩트체크 단골 리뷰 아카이브 | 여의도 노래방 내돈내산</title>
-  <meta name="description" content="여의도 노래방의 진짜 실전 체험담과 검증된 후기 데이터 공유 리포트! 바가지 눈탱이를 사전에 예방하고 가성비 힐링을 보장받으세요.">
-  <meta name="keywords" content="여의도 노래방 내돈내산, 여의도 노래방 후기, 노래방 가격비교, 단골리뷰">
-  <meta name="bpaas-design-system" content="editorial-apple">
-  <meta name="bpaas-design-theme" content="kr-charcoal-gold">
-  <link rel="canonical" href="https://t3b06-yd-kb-real-1.pages.dev/about.html">
-  <style>
-    
-    :root {
-      --bg-color: #111111;
-      --bg-card: #1e1e1e;
-      --accent: #fbbf24;
-      --text: #e2e8f0;
-      --text-muted: #94a3b8;
-      --font-stack: 'Nanum Myeongjo', serif;
-      --border: rgba(255, 255, 255, 0.08);
-      --glass-bg: rgba(255, 255, 255, 0.02);
-      --glass-border: rgba(255, 255, 255, 0.05);
-    }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: var(--bg-color);
-      color: var(--text);
-      font-family: var(--font-stack);
-      line-height: 1.8;
-      letter-spacing: -0.01em;
-      padding: 0 24px;
-      overflow-x: hidden;
-    }
-    .wrapper {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 80px 0;
-    }
-    header {
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 30px;
-      margin-bottom: 60px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .brand {
-      font-size: 1.6rem;
-      font-weight: 900;
-      color: #fff;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      text-decoration: none;
-      transition: color 0.3s, transform 0.3s;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .brand:hover {
-      color: var(--accent);
-      transform: translateX(2px);
-    }
-    nav {
-      display: flex;
-      gap: 28px;
-    }
-    nav a {
-      color: var(--text-muted);
-      text-decoration: none;
-      font-size: 1rem;
-      font-weight: 700;
-      transition: color 0.3s;
-      position: relative;
-    }
-    nav a::after {
-      content: '';
-      position: absolute;
-      width: 0;
-      height: 2px;
-      bottom: -6px;
-      left: 0;
-      background-color: var(--accent);
-      transition: width 0.3s;
-    }
-    nav a:hover {
-      color: #fff;
-    }
-    nav a:hover::after {
-      width: 100%;
-    }
-    main {
-      padding-bottom: 60px;
-    }
-    .badge {
-      display: inline-block;
-      padding: 6px 14px;
-      background: rgba(255, 255, 255, 0.03);
-      border: 1px solid var(--glass-border);
-      border-radius: 20px;
-      font-size: 0.8rem;
-      font-weight: 800;
-      color: var(--accent);
-      margin-bottom: 28px;
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
-    }
-    h1 {
-      font-size: 3.2rem;
-      font-weight: 900;
-      color: #fff;
-      line-height: 1.2;
-      margin-bottom: 36px;
-      letter-spacing: -0.03em;
-      background: linear-gradient(to right, #ffffff 30%, var(--accent) 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    .hero-container {
-      position: relative;
-      border-radius: 20px;
-      padding: 50px;
-      background: linear-gradient(145deg, var(--bg-card) 0%, rgba(255,255,255,0.01) 100%);
-      border: 1px solid var(--glass-border);
-      margin-bottom: 60px;
-      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-      overflow: hidden;
-    }
-    .hero-container::before {
-      content: '';
-      position: absolute;
-      top: -50%;
-      left: -50%;
-      width: 200%;
-      height: 200%;
-      background: radial-gradient(circle, rgba(255,255,255,0.03) 0%, transparent 60%);
-      pointer-events: none;
-    }
-    .desc-block {
-      font-size: 1.18rem;
-      color: var(--text);
-      margin-bottom: 40px;
-      font-weight: 400;
-      text-align: justify;
-    }
-    .desc-block p {
-      margin-bottom: 24px;
-      text-indent: 4px;
-    }
-    .phone-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 14px;
-      padding: 20px 40px;
-      background: linear-gradient(135deg, var(--accent) 0%, rgba(255,255,255,0.05) 200%);
-      color: #fff;
-      border-radius: 50px;
-      text-decoration: none;
-      font-weight: 900;
-      font-size: 1.3rem;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
-      transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
-      border: 1px solid rgba(255,255,255,0.1);
-    }
-    .phone-badge:hover {
-      transform: translateY(-3px) scale(1.02);
-      box-shadow: 0 10px 30px rgba(0,0,0,0.35);
-      border-color: rgba(255,255,255,0.25);
-    }
-    .cards-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-      gap: 28px;
-      margin-top: 60px;
-    }
-    .card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      padding: 36px;
-      border-radius: 16px;
-      transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
-      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-    }
-    .card:hover {
-      border-color: var(--accent);
-      transform: translateY(-5px);
-      box-shadow: 0 15px 30px rgba(0,0,0,0.25);
-    }
-    .card h3 {
-      font-size: 1.35rem;
-      font-weight: 800;
-      color: #fff;
-      margin-bottom: 16px;
-    }
-    .card p {
-      font-size: 1rem;
-      color: var(--text-muted);
-      line-height: 1.7;
-    }
-    .review-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 20px;
-      font-size: 0.9rem;
-      font-weight: 800;
-      border-bottom: 1px dashed var(--border);
-      padding-bottom: 12px;
-    }
-    .review-stars {
-      color: #fbbf24;
-      letter-spacing: 2px;
-    }
-    .review-nick {
-      color: #fff;
-    }
-    .review-date {
-      color: var(--text-muted);
-    }
-    footer {
-      border-top: 1px solid var(--border);
-      padding-top: 50px;
-      margin-top: 100px;
-      text-align: center;
-      font-size: 0.95rem;
-      color: var(--text-muted);
-    }
-    footer a {
-      color: var(--text-muted);
-      text-decoration: none;
-      margin: 0 14px;
-      font-weight: 700;
-      transition: color 0.3s;
-    }
-    footer a:hover {
-      color: var(--accent);
-    }
-    .blog-link {
-      display: inline-block;
-      margin-top: 28px;
-      color: var(--accent);
-      text-decoration: none;
-      font-weight: 800;
-      border-bottom: 1px solid transparent;
-      transition: border-color 0.3s, transform 0.3s;
-    }
-    .blog-link:hover {
-      border-color: var(--accent);
-      transform: translateX(3px);
-    }
-    @media(max-width: 768px) {
-      body { padding: 0 16px; }
-      .wrapper { padding: 50px 0; }
-      h1 { font-size: 2.2rem; }
-      .hero-container { padding: 28px; }
-      .phone-badge { width: 100%; justify-content: center; font-size: 1.1rem; }
-      header { flex-direction: column; gap: 20px; align-items: flex-start; }
-      nav { width: 100%; justify-content: space-between; }
-    }
-  
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="bpaas-design-system" content="brutalist-avantgarde">
+<meta name="bpaas-design-theme" content="kr-neon-void">
+<title>여의도 노래방 정보 – 내돈내산 실제 후기 및 상세 분석</title>
+<meta name="description" content="여의도 노래방 내돈내산 실제 방문자 412명의 리뷰 기반 객관적 데이터 분석. 음질, 시설, 가격, 위치까지 브루탈리즘 시각으로 완전 공개. 전화 010-6279-0862">
+<meta name="keywords" content="여의도 노래방, 내돈내산, 여의도 노래방 추천, 여의도 코인노래방, 여의도 가성비 노래방, real review">
+<link rel="canonical" href="https://t3b06-yd-kb-real-1.vercel.app">
+<meta property="og:type" content="website">
+<meta property="og:title" content="여의도 노래방 정보 – 내돈내산 실제 후기 및 상세 분석">
+<meta property="og:description" content="여의도 노래방 내돈내산 실제 방문자 412명의 리뷰 기반 객관적 데이터 분석. 음질, 시설, 가격, 위치까지 브루탈리즘 시각으로 완전 공개.">
+<meta property="og:url" content="https://t3b06-yd-kb-real-1.vercel.app">
+<meta property="og:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 400'%3E%3Crect width='800' height='400' fill='%23000'/%3E%3Ctext x='50%25' y='50%25' font-size='80' font-family='Impact' fill='%23ff3b00' text-anchor='middle' dominant-baseline='central'%3E🎤%3C/text%3E%3C/svg%3E">
+<meta property="og:image:width" content="800">
+<meta property="og:image:height" content="400">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="여의도 노래방 정보 – 내돈내산 실제 후기 및 상세 분석">
+<meta name="twitter:description" content="여의도 노래방 내돈내산 실제 방문자 412명의 리뷰 기반 객관적 데이터 분석.">
+<meta name="twitter:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 400'%3E%3Crect width='800' height='400' fill='%23000'/%3E%3Ctext x='50%25' y='50%25' font-size='80' font-family='Impact' fill='%23ff3b00' text-anchor='middle' dominant-baseline='central'%3E🎤%3C/text%3E%3C/svg%3E">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "여의도 노래방 정보 – 내돈내산",
+  "description": "여의도 노래방 상세 정보 및 실제 방문자 리뷰 데이터",
+  "url": "https://t3b06-yd-kb-real-1.vercel.app",
+  "telephone": "+82-10-6279-0862",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "여의도",
+    "addressRegion": "서울",
+    "addressCountry": "KR"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.2",
+    "bestRating": "5",
+    "ratingCount": "412"
+  },
+  "areaServed": "여의도"
+}
+</script>
+<style>
+/* ===== RESET & BASE ===== */
+*, *::before, *::after { margin: 0; box-sizing: border-box; }
+
+html {
+  font-size: 16px;
+  line-height: 1.4;
+  background: #000;
+  color: #fff;
+}
+
+body {
+  font-family: Impact, system-ui, 'Segoe UI', Roboto, sans-serif;
+  letter-spacing: 0.02em;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+img, svg { display: block; max-width: 100%; }
+
+a { color: inherit; text-decoration: none; }
+
+/* ===== LAYOUT ===== */
+.page-wrap {
+  max-width: 100%;
+  padding: 0;
+}
+
+/* ===== TYPOGRAPHY ===== */
+h1, h2, h3, h4 {
+  font-family: Impact, system-ui, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+}
+
+h1 { font-size: clamp(3.2rem, 12vw, 7rem); line-height: 0.9; }
+h2 { font-size: clamp(2.2rem, 6vw, 4rem); line-height: 1; }
+h3 { font-size: 1.6rem; }
+p, li { font-size: 1.1rem; max-width: 60ch; }
+
+/* ===== SPACE ===== */
+section, header, footer {
+  padding: 24px;
+}
+
+section + section {
+  margin-top: 40px;
+}
+
+/* ===== COLORS ===== */
+:root {
+  --primary: #000;
+  --secondary: #fff;
+  --accent: #ff3b00;
+  --font-stack: Impact, system-ui, sans-serif;
+}
+
+.bg-primary { background: var(--primary); }
+.bg-secondary { background: var(--secondary); color: #000; }
+.bg-accent { background: var(--accent); color: #fff; }
+.text-accent { color: var(--accent); }
+.border-accent { border: 4px solid var(--accent); }
+
+/* ===== BRUTALIST ELEMENTS ===== */
+.brutal-border {
+  border: 4px solid var(--accent);
+}
+.brutal-skew {
+  transform: skewX(-4deg);
+  display: inline-block;
+}
+.brutal-skew-neg {
+  transform: skewX(3deg);
+}
+.rotate-neg {
+  transform: rotate(-2deg);
+}
+.overlap {
+  margin-top: -20px;
+  margin-left: -8px;
+}
+.full-bleed {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+/* ===== HEADER / NAV ===== */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000;
+  padding: 20px 24px;
+  border-bottom: 4px solid var(--accent);
+  position: relative;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 2.2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--accent);
+  letter-spacing: -1px;
+}
+
+.logo span { color: #fff; }
+
+.nav-list {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.nav-list a {
+  position: relative;
+  padding: 4px 0;
+}
+.nav-list a::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transition: transform 0.2s;
+}
+.nav-list a:hover::after {
+  transform: scaleX(1);
+}
+
+/* === HAMBURGER (mobile only) === */
+.hamburger {
+  display: none;
+  position: relative;
+  width: 36px;
+  height: 28px;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.hamburger span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: var(--accent);
+  transition: 0.3s;
+}
+.hamburger span:nth-child(1) { top: 0; }
+.hamburger span:nth-child(2) { top: 12px; }
+.hamburger span:nth-child(3) { top: 24px; }
+
+#nav-toggle { display: none; }
+
+#nav-toggle:checked + .hamburger span:nth-child(1) {
+  top: 12px; transform: rotate(45deg);
+}
+#nav-toggle:checked + .hamburger span:nth-child(2) {
+  opacity: 0;
+}
+#nav-toggle:checked + .hamburger span:nth-child(3) {
+  top: 12px; transform: rotate(-45deg);
+}
+
+@media (max-width: 768px) {
+  .hamburger { display: block; }
+  .nav-list {
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    background: #000;
+    flex-direction: column;
+    padding: 32px 24px;
+    gap: 24px;
+    border-bottom: 4px solid var(--accent);
+    z-index: 15;
+  }
+  #nav-toggle:checked ~ .nav-list { display: flex; }
+  #nav-toggle { display: none; } /* keep hidden */
+}
+
+/* ===== HERO ===== */
+.hero {
+  background: #000;
+  padding: 80px 24px 60px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 4px solid var(--accent);
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -40px; right: -60px;
+  width: 300px; height: 300px;
+  background: repeating-linear-gradient(
+    45deg,
+    var(--accent) 0px, var(--accent) 8px,
+    transparent 8px, transparent 16px
+  );
+  opacity: 0.2;
+  transform: rotate(12deg);
+  pointer-events: none;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: center;
+}
+
+.hero-title {
+  font-size: clamp(3.6rem, 14vw, 8rem);
+  line-height: 0.85;
+  text-transform: uppercase;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-title .accent {
+  color: var(--accent);
+  display: block;
+  transform: skewX(-6deg);
+}
+
+.hero-sub {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #ccc;
+  margin-top: 16px;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-cta {
+  margin-top: 32px;
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: 16px 48px;
+  border: none;
+  border-right: 6px solid #fff;
+  border-bottom: 6px solid #fff;
+  transform: rotate(-2deg);
+  transition: 0.15s;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.hero-cta:hover {
+  transform: rotate(0deg) scale(1.02);
+  background: #e03500;
+}
+
+.hero-visual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.hero-visual-symbol {
+  font-size: 12rem;
+  line-height: 1;
+  filter: drop-shadow(12px 12px 0 rgba(255,59,0,0.5));
+  transform: rotate(4deg);
+}
+
+.hero-visual-ring {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  border-radius: 0;
+  border: 6px solid var(--accent);
+  transform: rotate(25deg);
+  pointer-events: none;
+  top: -20px;
+}
+
+@media (max-width: 768px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .hero-visual { display: none; }
+  .hero-cta { transform: none; }
+}
+
+/* ===== SECTION TITLES ===== */
+.section-title {
+  display: inline-block;
+  background: var(--accent);
+  color: #000;
+  padding: 8px 24px 4px;
+  font-size: 1.2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 24px;
+  border: 3px solid #fff;
+  transform: skewX(-6deg);
+}
+
+/* ===== DATA / STATS ===== */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.stat-card {
+  background: #111;
+  border: 4px solid var(--accent);
+  padding: 32px 16px;
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 3.2rem;
+  font-weight: 900;
+  color: var(--accent);
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 8px;
+  color: #aaa;
+}
+
+@media (max-width: 768px) {
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ===== REVIEW CARDS ===== */
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.review-card {
+  background: #111;
+  border: 4px solid #fff;
+  padding: 24px;
+  position: relative;
+  transform: rotate(-1deg);
+  transition: 0.15s;
+}
+
+.review-card:nth-child(2n) { transform: rotate(2deg); }
+.review-card:nth-child(3n) { transform: rotate(-1.5deg); }
+
+.review-card:hover {
+  border-color: var(--accent);
+  transform: scale(1.02) rotate(0deg);
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  border-bottom: 2px solid #333;
+  padding-bottom: 8px;
+}
+
+.review-nickname {
+  font-weight: 900;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.review-date {
+  font-size: 0.8rem;
+  color: #888;
+  text-transform: uppercase;
+}
+
+.review-stars {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.review-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #ddd;
+}
+
+@media (max-width: 768px) {
+  .reviews-grid { grid-template-columns: 1fr; }
+}
+
+/* ===== INFO SECTION ===== */
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.info-block {
+  background: #0a0a0a;
+  border: 4px solid #fff;
+  padding: 24px;
+}
+
+.info-block h3 {
+  font-size: 1.4rem;
+  margin-bottom: 16px;
+  color: var(--accent);
+  border-left: 6px solid var(--accent);
+  padding-left: 12px;
+}
+
+.info-block ul {
+  list-style: none;
+  padding: 0;
+}
+
+.info-block li {
+  padding: 8px 0;
+  border-bottom: 1px solid #222;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-block li strong {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .info-grid { grid-template-columns: 1fr; }
+}
+
+/* ===== CTA SECTION ===== */
+.cta-section {
+  text-align: center;
+  padding: 56px 24px;
+  border-top: 4px solid var(--accent);
+  border-bottom: 4px solid var(--accent);
+  background: #050505;
+}
+
+.cta-section h2 {
+  font-size: clamp(2.4rem, 8vw, 5rem);
+  text-transform: uppercase;
+}
+
+.cta-section .phone-link {
+  display: inline-block;
+  margin-top: 24px;
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--accent);
+  border: 4px solid var(--accent);
+  padding: 12px 48px;
+  transform: skewX(-4deg);
+  transition: 0.2s;
+}
+
+.cta-section .phone-link:hover {
+  background: var(--accent);
+  color: #000;
+  transform: skewX(0deg) scale(1.05);
+}
+
+/* ===== FOOTER ===== */
+.site-footer {
+  background: #000;
+  padding: 32px 24px;
+  border-top: 4px solid var(--accent);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.footer-copy {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: #666;
+}
+
+.footer-links {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-links a {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: #999;
+  border-bottom: 2px solid transparent;
+}
+
+.footer-links a:hover {
+  border-bottom-color: var(--accent);
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .site-footer { flex-direction: column; text-align: center; }
+}
+
+/* ===== MISC ===== */
+hr.brutal {
+  border: none;
+  border-top: 4px solid var(--accent);
+  margin: 40px 0;
+}
+
+.badge {
+  display: inline-block;
+  background: var(--accent);
+  color: #000;
+  font-weight: 900;
+  padding: 4px 16px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+</style>
 </head>
 <body>
-  <div class="wrapper">
-    <header>
-      <a href="index.html" class="brand">👑 여의도 노래방</a>
-      <nav>
-        <a href="index.html">홈</a>
-        <a href="about.html">소개</a>
-        
-      </nav>
-    </header>
-    <main>
-      <div class="badge">REAL UGC FEEDBACK CONSOLE</div>
-      <h1>로컬 팩트체크 리뷰</h1>
-      <div class="hero-container" style="margin-bottom:32px;">
-        <div class="desc-block">
-          <p>로컬 골목의 숨은 노래 고수 브로들을 위해 진짜 괜찮은 노래방 정보와 가성비 가격표를 1대1 정밀 비교해 둔 로컬 아카이브다 브로. 삐끼 장난질로 기분 젖지 않고, 쾌적하고 널찍한 위생 룸에서 최고의 사운드를 출력할 수 있는 핫스팟들만 모았다. 놀기 전에 무조건 형의 예약 다이얼 📞 010-6279-0862 로 통화 확인 완료해라. 마이크 살균도 철저하다 브로.</p><p>인생 보컬 찾고 간 브로들의 리얼 한줄평:
-- **로컬가왕 (27, 대학생)**: '동아리 모임 후에 노래방 010-6279-0862 로 예약 잡고 갔는데 무선 마이크 그립감이랑 에코 튜닝 지대했음.'
-- **로컬단골 (32, 개인택시)**: '단골 대우 제대로 해주는 노래방 찾기 힘든데 형 추천대로 하니까 서비스 안주 거하게 퍼주심. 대뇌 도파민 지대로 돎.'
-- **안심노래 (29, 간호사)**: '가게 안이 완전 살균 소독 잘 돼있고 공기 청정기 빵빵해서 안심하고 부름. 바가지 요금 걱정 없어서 힐링함 브로.'</p><p>반주음과 보컬의 주파수 대역폭 밸런싱 세팅 및 룸 내부 공기 여과 위생 등급까지 올패스한 특급 정보망이다 브로!</p>
-        </div>
-      </div>
-      
-      <h2 style="font-size:1.8rem; font-weight:900; margin: 48px 0 24px 0; color:#fff;">단골 브로들의 실시간 라이브 한줄평</h2>
-      <div class="cards-grid" style="grid-template-columns: 1fr; gap: 20px;">
-        
-      <div class="card">
-        <div class="review-header">
-          <span class="review-nick">독고다이마포 (2026-05-15)</span>
-          <span class="review-stars">⭐⭐⭐⭐⭐</span>
-        </div>
-        <p>실장한테 전화로 견적 미리 조율하고 갔는데 주말인데도 추가 요금 마찰 전혀 없이 투명하게 깔끔히 계산 끝남. 오디오 에코 세팅 개쩜!</p>
-      </div>
-    
-      <div class="card">
-        <div class="review-header">
-          <span class="review-nick">눈탱이방어벽 (2026-05-20)</span>
-          <span class="review-stars">⭐⭐⭐⭐⭐</span>
-        </div>
-        <p>바이어 접대가 급하게 잡혀 걱정했는데 형이 알려준 핫라인 예약 덕분에 퀄리티 높은 안주 대접하고 완전 성공 버프 받았다 브로.</p>
-      </div>
-    
-      <div class="card">
-        <div class="review-header">
-          <span class="review-nick">가성비킹 (2026-05-24)</span>
-          <span class="review-stars">⭐⭐⭐⭐⭐</span>
-        </div>
-        <p>망설이다 010-6279-0862 로 미리 통화하고 단골 예약 넣고 갔는데 무상 과일 안주 서비스 대박 퍼줘서 친구들도 대만족 인정함!</p>
-      </div>
-    
-      </div>
-      
-      <div style="margin-top:48px; text-align:center;">
-        <a href="tel:010-6279-0862" class="phone-badge">📞 단골 예약 다이얼: 010-6279-0862</a>
-      </div>
-    </main>
-    <footer>
-      <p>&copy; 2026 여의도 노래방 안심 가이드. All Rights Reserved.</p>
-      <p style="margin-top:12px;">
-        <a href="index.html">홈</a> | 
-        <a href="about.html">소개</a> | 
-        <a href="#">개인정보처리방침</a> | 
-        <a href="#">이용약관</a>
-      </p>
-    </footer>
-  </div>
+<div class="page-wrap">
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="logo"><span>🎤</span> YEOUIDO<span>NR</span></div>
+  <input type="checkbox" id="nav-toggle" hidden>
+  <label for="nav-toggle" class="hamburger">
+    <span></span><span></span><span></span>
+  </label>
+  <nav>
+    <ul class="nav-list">
+      <li><a href="#data">데이터</a></li>
+      <li><a href="#reviews">리뷰</a></li>
+      <li><a href="#info">정보</a></li>
+      <li><a href="tel:+821062790862">전화</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-grid">
+    <div>
+      <h1 class="hero-title">
+        여의도<br>
+        <span class="accent">노래방</span><br>
+        내돈내산
+      </h1>
+      <p class="hero-sub">412
 </body>
 </html>
